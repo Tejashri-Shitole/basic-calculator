@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+}
+
+body{
+    background-image: url(assets/numerology-concept-composition.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+#unorderedHead{
+    list-style-type: none;
+    background-color: rgba(69, 12, 77, 0.781);
+    color: white;
+}
+
+#unorderedHead li{
+    display: inline-block;
+    padding: 15px;
+    transition: all 0.3s ease;
+}
+
+#unorderedHead li:hover{
+    color: white;
+    cursor: pointer;
+    transform: scale(1.15);
+}
+
+#search-bar{
+    padding: 10px 15px;
+    width: 250%;
+    height: 25px;
+    border-radius: 9px;
+    margin-left: 35px;
+    float: end;
+    border: none;
+}
+
+#search-bar:focus{
+    outline: none;
+}
+
+.sign{
+    color: white;
+    padding: 15px 15px;
+    /* display: inline-block; */
+    float: inline-end;
+    transition: all 0.3s ease;
+}
+
+.sign:hover{
+    color: white;
+    transform: scale(1.15);
+}
+
+#challenge{
+    margin: 180px 35vw 0px 35vw;
+    box-sizing: border-box;
+}
+
+#challenge h1{
+    font-size: 50px;
+    position: relative;
+    animation: slideRight 3s ease-in-out infinite alternate;
+    z-index: 1;
+    color: #1d1c1c; /* Text color */
+    text-shadow: 0 0 10px rgba(236, 236, 236, 0.8), 0 0 20px rgba(216, 215, 215, 0.6),0 0 30px rgba(177, 176, 176, 0.4),0 0 40px rgba(110, 109, 109, 0.2);
+}
+
+@keyframes slideRight{
+    0%{
+        left: -100%;
+    }
+    50%{
+        left: 0%;
+    }
+    100%{
+        left: 100%;
+    }
+}
+
+#tableSection {
+    display: table;
+    border: 1px solid rgb(173, 168, 168);
+    margin: 100px auto 200px auto;
+    padding: 50px 40px;
+    border-radius: 10px;
+    background-color: #bfbbbbf5;
+    /* padding: 25px; */
+}
+
+#basicHeading{
+    margin: 10px 0px 5px 20px;
+    color: hsl(0, 3%, 22%);
+    font-size: 40px;
+}
+
+#calculateTable{
+    margin: 21px;
+}
+
+.inputField{
+    color: hsl(0, 3%, 22%);
+    font-size: 17px;
+}
+
+#inputOne{
+    padding: 5px 5px;
+    border-radius: 7px;
+    border: none;
+    width: 150px;
+    margin-left: 10px;
+}
+
+#inputOne:focus{
+    outline: none;
+    box-shadow: 0 0 5px hsl(0, 3%, 22%);
+}
+
+#inputTwo{
+    padding: 5px 5px;
+    border-radius: 7px;
+    border: none;
+    width: 150px;
+    margin-left: 10px;
+}
+
+#inputTwo:focus{
+    outline: none;
+    box-shadow: 0 0 5px hsl(0, 3%, 22%);
+}
+
+#addition{
+    padding: 5px 52px;
+    margin-left: 40px;
+    margin-top: 15px;
+    border-radius: 6px;
+    border: 1px solid grey;
+    background-color: rgba(23, 3, 43, 0.637);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+#addition:hover{
+    color: black;
+    background-color: rgba(44, 17, 71, 0.507);
+    transform: scale(1.05);
+}
+
+#subtraction{
+    padding: 5px 36px;
+    margin-left: 10px;
+    margin-top: 15px;
+    border-radius: 6px;
+    border: 1px solid grey;
+    background-color: rgba(23, 3, 43, 0.637);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+#subtraction:hover{
+    color: black;
+    background-color: rgba(44, 17, 71, 0.507);
+    transform: scale(1.05);
+}
+
+#multiplication{
+    padding: 5px 40px;
+    margin-left: 40px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid grey;
+    background-color: rgba(23, 3, 43, 0.637);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+#multiplication:hover{
+    color: black;
+    background-color: rgba(44, 17, 71, 0.507);
+    transform: scale(1.05);
+}
+
+#division{
+    padding: 5px 44px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid grey;
+    background-color: rgba(23, 3, 43, 0.637);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+#division:hover{
+    color: black;
+    background-color: rgba(44, 17, 71, 0.507);
+    transform: scale(1.05);
+}
+
+#footer{
+    background-color: rgba(69, 12, 77, 0.781);
+    color: white;
+    padding: 20px;
+}
+
+#right-footer{
+    display: flex;
+    justify-content: center;
+}
